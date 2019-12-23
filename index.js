@@ -6,7 +6,7 @@ const fs = require('fs');
 
     const inputCsvFilePath = 'input.csv';
     const outputCsvFilePath = 'output.csv';
-    const apiUrl = "http://www.zipcodeapi.com/rest/CXt1yJtzvJyBUIwkyRKwTrMnX41ieHPZS5hRf017agQt4pg9NWOARdHHduhbzKXc/distance.json/source/destination/mile";
+    const apiUrl = "http://www.zipcodeapi.com/rest/F5dW7Mn0te13MmX64yOvZGXaWm6GdTKYzj3JeQRVu3biBX4x5g5N5c5wBetIdliW/distance.json/source/destination/mile";
     let resultArr = [];
     let promises = [];
     let json = {};
